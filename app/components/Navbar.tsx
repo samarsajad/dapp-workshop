@@ -24,8 +24,8 @@ function Navbar() {
         <WagmiProvider config={config}>
             <QueryClientProvider client={queryClient}>
                 <RainbowKitProvider>
-                    <div className="flex justify-between bg-black text-white py-3 px-5">
-                        <p className="text-xl mt-2">Fund Me</p>
+                    <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                        {/* <p className="flex text-xl gap-x-10"></p> */}
                         <ConnectButton></ConnectButton>
                     </div>
                 </RainbowKitProvider>
